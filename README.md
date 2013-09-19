@@ -37,4 +37,5 @@ You will have the opportunity to revise your program once based on my feedback b
 Your goal for this assignment should be clear, readable code. Not code that just works.
 In particular, make sure you've followed the [Java style guide](https://docs.google.com/document/d/1V8BM38WXnBuVvTPilZMVCSuITLVW5VEfPKHaJ3uCZgc/edit?usp=sharing)
 
-Extra Credit: Implement a Graphical Interface
+### Extra Credit: 
+Implement a Graphical Interface.
