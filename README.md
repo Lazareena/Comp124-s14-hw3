@@ -10,12 +10,12 @@ You *must* include at least two separate classes in your program:
 I've created empty java class for both Wheel and Machine, along with empty junit Tests for each of them.
 You should write unit tests for every method unless it's impossible (it's not possible to test the run() method, for example).
 
-Here's a specific suggestion to get started:
+Here's a specific suggestion to get started.
 * Sketch out the methods and attributes of the Wheel and Machine classes (on paper, not in Java)
 * Diagram how they'll work together - the parameters, return types, etc (again - on paper).
 * Choose one of the "low level" methods that's not dependent on calls to other methods.
 * Write code for the method.
-* Write a test for the method.
+* Write a unit test for the method.
 * Repeat the previous steps until you're finished.
 
 Your goal for this assignment should be clear, readable code. Not code that just works.
