@@ -12,7 +12,7 @@ You should write unit tests for every method unless it's impossible (it's not po
 
 Here's a specific suggestion to get started:
 * Sketch out the methods and attributes of the Wheel and Machine classes (on paper, not in Java)
-* Diagram how they'll work together - the parameters, return types, etc.
+* Diagram how they'll work together - the parameters, return types, etc (again - on paper).
 * Choose one of the "low level" methods that's not dependent on calls to other methods.
 * Write code for the method.
 * Write a test for the method.
