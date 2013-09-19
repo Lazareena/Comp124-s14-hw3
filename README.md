@@ -1,2 +1,15 @@
-hw3
-===
+HW3
+====
+Please complete page 216, question number 5.
+
+You *must* include at least two separate classes in your program:
+
+* Wheel, which has a spin() method that randomly generates a symbol (bell / orange / etc).
+* Machine, which manages the game by spinning each of the wheels.
+
+I've created empty java class for both Wheel and Machine, along with empty junit Tests for each of them.
+
+Your goal for this assignment should be clear, readable code. Not code that just works.
+In particular, make sure you've followed the [Java style guide](https://docs.google.com/document/d/1V8BM38WXnBuVvTPilZMVCSuITLVW5VEfPKHaJ3uCZgc/edit?usp=sharing)
+
+Extra Credit: Implement a Graphical Interface
