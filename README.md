@@ -25,6 +25,7 @@ We'll talk about it in class on Tuesday.
 Accept that your plan (and therefore your code) will change as you encounter challenges.
 
 Next, iteratively develop your application:
+
 1. Choose one of the "low level" methods that's not dependent on calls to other methods.
 2. Write code for the method.
 3. Write a unit test for the method.
