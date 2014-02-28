@@ -1,7 +1,6 @@
 package edu.macalester.comp124.hw3;
 
 import acm.program.ConsoleProgram;
-import acm.util.RandomGenerator;
 
 /**
  */
@@ -14,7 +13,6 @@ public class Machine extends ConsoleProgram {
      * Make sure to test your new methods in the TestMachine junit class.
      *
      */
- Wheel A, B, C;
 
         Wheel w1 = new Wheel();
         Wheel w2 = new Wheel();
@@ -41,8 +39,7 @@ public class Machine extends ConsoleProgram {
                    println( row1 + " " + row2 + " " + row3 );
                    if (newx == x) {
                     println("--You loose");
-                   }
-                   else if (x > newx) {
+                   } else if (x > newx) {
                    println("--You win");
                    }
 
@@ -52,41 +49,24 @@ public class Machine extends ConsoleProgram {
         }
 
 
-    public int slotMachine(int a, String row1, String row2, String row3){
-
-
+    public int slotMachine(int a, String row1, String row2, String row3) {
 
         if ((row1.equals("BAR") && row2.equals("BAR")) && row3.equals("BAR")) {
         a += 250;
-        }
-
-        else if ((row1.equals("BELL") && row2.equals("BELL") && (row3.equals("BELL") || row3.equals("BAR")))) {
+        } else if ((row1.equals("BELL") && row2.equals("BELL") && (row3.equals("BELL") || row3.equals("BAR")))) {
          a += 20;
-        }
-
-        else if ((row1.equals("PLUM") && row2.equals("PLUM")) && (row3.equals("PLUM") || row3.equals("BAR"))) {
+        } else if ((row1.equals("PLUM") && row2.equals("PLUM")) && (row3.equals("PLUM") || row3.equals("BAR"))) {
          a += 14;
-        }
-
-        else if ((row1.equals("ORANGE") && row2.equals("ORANGE")) && (row3.equals("ORANGE") || row3.equals("BAR"))) {
+        } else if ((row1.equals("ORANGE") && row2.equals("ORANGE")) && (row3.equals("ORANGE") || row3.equals("BAR"))) {
          a += 10;
-        }
-
-        else if ((row1.equals("CHERRY") && row2.equals("CHERRY")) && row3.equals("CHERRY")) {
+        } else if ((row1.equals("CHERRY") && row2.equals("CHERRY")) && row3.equals("CHERRY")) {
         a += 7;
-        }
-
-        else if ((row1.equals("CHERRY") && row2.equals("CHERRY"))) {
+        } else if ((row1.equals("CHERRY") && row2.equals("CHERRY"))) {
         a += 5;
-        }
-
-        else if ((row1.equals("CHERRY"))) {
+        } else if ((row1.equals("CHERRY"))) {
         a += 2;
     }
-
-
 return a;
-
 }
 
 }
